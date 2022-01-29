@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'http://162.243.161.247/',
 	'username' => 'admin',
 	'password' => '$Joseyami0802',
 	'database' => 'prestoapp',
