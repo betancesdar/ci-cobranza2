@@ -37,6 +37,7 @@ class Loans extends CI_Controller {
         $p = 'P15D';
       if ($this->input->post('payment_m') == 'mensual')
         $p = 'P1M';
+        
       
       // definir periodo de fechas
       $period = new DatePeriod( 
